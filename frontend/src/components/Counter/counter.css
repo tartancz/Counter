@@ -1,0 +1,59 @@
+.countNumber {
+  display: inline-block;
+  margin: 0.3rem 1rem;
+  background-color: aqua;
+  width: 3rem;
+  padding: 0.5rem 0rem;
+  border-color: black;
+  border-radius: 10px;
+  text-align: center;
+}
+.changeButton {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border-color: grey;
+}
+
+.resetButton {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border-color: grey;
+}
+
+.resetButton :disabled {
+  color: rgb(63, 55, 55);
+  opacity: 40%;
+}
+
+.increase {
+  background-color: greenyellow;
+}
+
+.decrease {
+  background-color: rgb(219, 80, 80);
+}
+
+.changeButton:disabled {
+  color: rgb(63, 55, 55);
+  opacity: 40%;
+}
+.counterWrapper {
+  margin: 0.8rem;
+  padding: 0.8rem;
+  display: flex;
+  align-items: center;
+  background-color: aliceblue;
+  border-radius: 2px;
+  min-width: 1000px
+}
+
+.dateData {
+  display: flex;
+  flex-direction: column;
+  color: grey;
+  margin-left: 3rem;
+}
